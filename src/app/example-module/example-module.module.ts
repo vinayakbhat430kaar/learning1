@@ -4,6 +4,7 @@ import { DemoComponentComponent } from './demo-component/demo-component.componen
 import { FormsModule } from '@angular/forms';
 import { ExampleRoutingModule } from './example-module-routing.module';
 import { ExampleStoreModule } from '../example-store/example-store.module';
+import { NgZorroAntdModule } from '../ant-design/ant-design.module';
 
 
 
@@ -13,6 +14,7 @@ import { ExampleStoreModule } from '../example-store/example-store.module';
   ],
   imports: [
     CommonModule,
+    NgZorroAntdModule,
     FormsModule,
     ExampleRoutingModule,
     ExampleStoreModule
